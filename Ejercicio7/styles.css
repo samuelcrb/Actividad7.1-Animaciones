@@ -1,0 +1,25 @@
+
+span{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 1px solid;
+    width: 34ch;
+    animation: escribir 2s steps(41) alternate , parpadeo .5s infinite step-end alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes escribir{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 34ch;
+    }
+}
+
+@keyframes parpadeo{
+    50%{
+        border-right: transparent;
+    }
+}

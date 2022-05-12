@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#caja{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 0px;
+    transition:1s;
+}
+
+#caja:hover{
+    transform: rotate(360deg);
+}
+
+
